@@ -1,0 +1,12 @@
+/* .right {
+    background: url('../images/map.png') no-repeat top center;
+    background-size: 100% 100%;
+} */
+
+.BMap_cpyCtrl {
+    display: none;
+}
+
+.anchorBL {
+    display: none;
+}

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+input {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.w {
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    /* background-color: blue; */
+}
+
+.left {
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    background-color: #110f1e;
+    color: white;
+}
+
+.right {
+    top: 0;
+    margin-left: 20%;
+    width: 80%;
+    height: 100%;
+    /* background-color: pink; */
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.selector {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.selector li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    /* background-color: pink; */
+}
+
+.selector-first,
+.selector-left {
+    width: 30px;
+    height: 30px;
+}
+
+.selector-right {
+    margin-left: 24px;
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.selector-double {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.selector-second,
+.selector-third {
+    margin-left: 24px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.video-box {
+    position: relative;
+    height: 100vh;
+    background-color: #C1CFF7;
+    /*进行视频裁剪*/
+    overflow: hidden;
+}
+
+.video-box .video-background {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /*保证视频内容始终居中*/
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    /*保证视频充满屏幕*/
+    object-fit: cover;
+    min-height: 800px;
+}
+
+.layer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 684px;
+    color: white;
+    text-align: center;
+}
+
+.layer-1 {
+    font-weight: 550;
+    font-size: 56px;
+}
+
+.layer-2 {
+    font-weight: 550;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    zoom: 1
+}
+
+.clearfix:after {
+    clear: both
+}
