@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云疆游</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/myindex.css">
+
+    <!-- 增加D3元素库 -->
+
+</head>
+
+<body>
+    <div class="w">
+        <div class="left">
+            <h1 class="header">云疆游</h1>
+
+            <!-- 侧边栏 -->
+            <ul class="selector">
+                <li>
+                    <img class="selector-left" src="images/icon/main.png"></img>
+                    <a class="selector-right" href="index.html">Front page 首页</a>
+                </li>
+                <li>
+                    <img class="selector-left" src="./images/icon/tongji.png"></img>
+                    <a class="selector-right" href="./datamuseum.html">Overview 景点总览</a>
+                </li>
+                <li>
+                    <a href="./explore.html" class="selector-double">
+                        <img class="selector-first" src="images/icon/2.png"></img>
+                        <div class="selector-second" href="#">Explore 探索</div>
+                        <img class="selector-third" src="images/icon/down.png"></img>
+                    </a>
+                </li>
+                <li>
+                    <img class="selector-left" src="images/icon//1.png"></img>
+                    <a class="selector-right" href="graph.html">Map of scenic spots 景点图谱</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <!-- background -->
+            <div class="video-box">
+                <video class="video-background" preload="auto" loop playsinline autoplay src="./images/videos/2.mov"
+                    tabindex="-1" muted="muted"></video>
+                <div class="layer">
+                    <div class="layer-1">云疆游</div>
+                    <div class="layer-2">基于知识图谱和3D技术的线上新疆文旅平台</div>
+                </div>
+            </div>
+            <div class="right-container">
+
+            </div>
+            <div class="right-word">
+                <div class="right-inner">
+                    <h1>《多元一体的中华民族大家庭》</h1>
+                    <h1>The big family of the Chinese nation in diversity and unity</h1>
+                    <p>新疆自古以来就是多民族聚居地区，目前共生活着56个民族，是中国民族成份最全的省级行政区之一，主要居住的有13个民族，为维吾尔、汉、哈萨克、蒙古、回、柯尔克孜、满、锡伯、塔吉克、达斡尔、乌孜别克、塔塔尔、俄罗斯等民族。截至2020年底，全区常住人口2585.23万人，少数民族人口占总人口的57.76%。
+                    </p>
+                    <p>
+                        Xinjiang has been a multi-ethnic region since ancient times. Currently, there are 56 ethnic
+                        groups living in Xinjiang, making it one of the most ethnically diverse provincial-level
+                        administrative regions in China, with Uygur, Han, Kazak, Mongolian, Hui, Kirgiz, Manchu, Xibe,
+                        Tajik, Daur, Uzbek, Tatar, Russian and other ethnic groups. By the end of 2020, the region had a
+                        permanent population of 25.8523 million, with ethnic minorities accounting for 57.76 percent of
+                        the total.
+                    </p>
+                    <div class="video-con">
+                        <div class="video-con-left">
+                            <video src="./images/videos/museum.mov" controls="controls"></video>
+                            <div class="subtitle">
+                                新疆维吾尔自治区博物馆简介
+                            </div>
+                            <div class="subtitle">
+                                Introduction to Xinjiang Uygur Autonomous Region Museum
+                            </div>
+                        </div>
+                        <div class="video-con-right">
+                            <p>
+                                多元一体的中华民族大家庭形成，多民族大一统的中国疆域开拓，是中国经济社会发展的历史必然。在中国统一的多民族国家的长期历史演进中，新疆各族人民同全国各族人民一道共同开拓了中国的辽阔疆土，共同缔造了多元一体的中华民族大家庭。
+                            </p>
+                            <p>
+                                The formation of a diverse and unified Chinese nation and the expansion of China's
+                                territory are the historical inevitability of China's economic and social development.In
+                                the long history of China's unified multi-ethnic country, the people of all ethnic
+                                groups in Xinjiang, together with the people of all ethnic groups in the country, have
+                                opened up the vast territory of China and built the big family of the Chinese nation in
+                                diversity and unity.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="footer">
+                        新疆地区在漫长的历史岁月中，经历了多民族大迁徙、大融合、各种思想文化相互激荡、交流融合，为思想文化和科学技术的发展提供了沃土。新疆地区的各民族语言文字、文学、翻译、史学、音乐、舞蹈、建筑等方面都有着其独特的魅力与特点。
+                    </p>
+                    <p>
+                        In its long history, Xinjiang has experienced the great migration and integration of various
+                        ethnic groups, as well as the interaction and integration of various ideologies and cultures,
+                        which has provided fertile ground for the development of ideology, culture, science and
+                        technology. Xinjiang's ethnic languages, literature, translation, history, music, dance,
+                        architecture and other aspects have their own unique charm and characteristics.
+                    </p>
+                    <img src="./images/14.png" alt="">
+                    <a href="https://www.bilibili.com/video/BV1th411U7t3">点击此处观看 《天山南北——中国新疆生活纪实》纪录片</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script type="text/javascript">
+    var data = {
+        nodes: [{ id: '1', label: '刘备', type: '男', properties: { age: 50 } },
+        { id: '2', label: '关羽', type: '男' },
+        { id: '3', label: '张飞', type: '男' }],
+        links: [{ source: '1', target: '2', label: '二弟', properties: { other: 'other prop' } },
+        { source: '1', target: '3', label: '三弟' }]
+    };
+
+    //  3、初始化关系图
+    let visGraph = new VisGraph(document.getElementById('graph-panel'));
+    visGraph.drawData(data);//绘制图完成
+    console.log(1);
+</script>
+
+</html>

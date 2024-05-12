@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云疆游</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/datamuseum.css">
+    <script type="text/javascript"
+        src="https://api.map.baidu.com/api?type=webgl&v=1.0&ak=DYjnez1aiMrr0Qp3rcgS5FLEn3db3uT6"></script>
+    <script src="https://cdn.staticfile.org/echarts/5.4.0/echarts.min.js"></script>
+    <script src="./js/datamuseum.js"></script>
+</head>
+
+<body>
+    <div class="w">
+        <div class="left">
+            <h1 class="header">云疆游</h1>
+
+            <!-- 侧边栏 -->
+            <ul class="selector">
+                <li>
+                    <img class="selector-left" src="./images/icon/main.png"></img>
+                    <a class="selector-right" href="./index.html">Front page 首页</a>
+                </li>
+                <li>
+                    <img class="selector-left" src="./images/icon/tongji.png"></img>
+                    <a class="selector-right" href="./datamuseum.html">Overview 景点总览</a>
+                </li>
+                <li>
+                    <a href="./explore.html" class="selector-double">
+                        <img class="selector-first" src="./images/icon/2.png"></img>
+                        <div class="selector-second" href="#">Explore 探索</div>
+                        <img class="selector-third" src="./images/icon/down.png"></img>
+                    </a>
+                </li>
+                <li>
+                    <img class="selector-left" src="./images/icon/1.png"></img>
+                    <a class="selector-right" href="./graph.html">Map of scenic spots 景点图谱</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="right-top">
+                <div class="right-left">
+                    <div class="right-left-1">
+                        <div class="data-head">数据总览</div>
+                        <div class="echarts" id="echarts-1">
+                            <div class="yqlist">
+                                <ul class="clearfix">
+                                    <li>
+                                        <div class="yq" id="yq">15</div>
+                                        <span>5A景区</span>
+                                    </li>
+                                    <li>
+                                        <div class="yq">121</div>
+                                        <span>4A景区</span>
+                                    </li>
+                                    <li>
+                                        <div class="yq">正常</div>
+                                        <span>承载量</span>
+                                    </li>
+                                    <li>
+                                        <div class="yq">6.4</div>
+                                        <span>当前推荐指数</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-left-2">
+                        <div class="data-head">推荐指数</div>
+                        <div class="echarts" id="echarts-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="right-right" id="allmap">
+
+                </div>
+            </div>
+            <div class="right-bottom">
+                <div class="data-head" id="bottom">出行推荐指数</div>
+                <div class="echarts" id="echarts-4"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
