@@ -1129,34 +1129,34 @@ window.onload = function () {
 
     var citys = [{
         name: '阿勒泰地区布尔津县喀纳斯景区',
-        img: '/images/sight-icon/icon-1.png',
+        img: 'images/sight-icon/icon-1.png',
     }, {
         name: '昌吉回族自治州阜康市天山天池风景区',
-        img: '/images/sight-icon/icon-2.png',
+        img: 'images/sight-icon/icon-2.png',
     },
     {
         name: '新疆维吾尔自治区吐鲁番市吐鲁番市',
-        img: '/images/sight-icon/icon-3.png',
+        img: 'images/sight-icon/icon-3.png',
     },
     {
         name: '伊犁哈萨克自治州新源县那拉提草原',
-        img: '/images/sight-icon/icon-4.png',
+        img: 'images/sight-icon/icon-4.png',
     },
     {
         name: '阿勒泰地区富蕴县新疆可可托海景区',
-        img: '/images/sight-icon/icon-5.png',
+        img: 'images/sight-icon/icon-5.png',
     },
     {
         name: '巴音郭楞蒙古自治州和静县巴音布鲁克镇',
-        img: '/images/sight-icon/icon-6.png',
+        img: 'images/sight-icon/icon-6.png',
     },
     {
         name: '喀什地区喀什市喀什古城',
-        img: '/images/sight-icon/icon-7.png',
+        img: 'images/sight-icon/icon-7.png',
     },
     {
         name: '博尔塔拉蒙古自治州博乐市赛里木湖国家级风景名胜区',
-        img: '/images/sight-icon/icon-8.png',
+        img: 'images/sight-icon/icon-8.png',
     },
     ];
 
