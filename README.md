@@ -77,6 +77,8 @@ If there is incorrect data, please comment, we will delete it
 
 ![1](https://github.com/KhanCold/XinjiangTravel/assets/119404710/319e5dde-97a5-4a2f-a3dd-20289aef00df)
 
+![image](https://github.com/KhanCold/XinjiangTravel/assets/119404710/760ac4a2-03a8-43a7-a90e-b1ad6eb6e746)
+
 
 
 
