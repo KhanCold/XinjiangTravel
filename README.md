@@ -1,3 +1,10 @@
+网站已经部署到该网址，请点击预览，3D图加载较满，出现Loading信息，请耐心等待！
+
+The website has been deployed to this URL, please click preview, 3D image Loading is full, loading information appears, please wait patiently!
+
+https://khancold.github.io/XinjiangTravel/
+
+
 ![image](https://github.com/KhanCold/XinjiangTravel/assets/119404710/04e1cec7-f20f-49b2-b38c-43925d23da55)
 
 # 介绍 Introduction
