@@ -20,20 +20,12 @@
 主要分为四个界面
 
 1.首页界面,采用了动态的背景
-![image](https://github.com/KhanCold/XinjiangTravel/assets/119404710/5271e91e-3bc2-473a-957a-b98996817c94)
-
 
 2.景点总览界面
-![image](https://github.com/KhanCold/XinjiangTravel/assets/119404710/08d77589-8c22-4266-8aad-a6b21ec11ecf)
-
 
 3.探索界面，可以以3D方式游览景点
 
-
-
 4.景点知识图谱，可以查看各个景点的知识图谱。
-![image](https://github.com/KhanCold/XinjiangTravel/assets/119404710/8963a70a-ea21-41b2-bbe0-c5982d29ccf7)
-
 
 # 软件架构
 软件架构说明 分为css、js、html三个文件夹
@@ -48,3 +40,14 @@
 本知识图谱中的数据来源百度百科
 
 如有错误数据，请批评指正，我们会将其删除
+
+![image](https://github.com/KhanCold/XinjiangTravel/assets/119404710/08d77589-8c22-4266-8aad-a6b21ec11ecf)
+
+![image](https://github.com/KhanCold/XinjiangTravel/assets/119404710/8963a70a-ea21-41b2-bbe0-c5982d29ccf7)
+
+![1](https://github.com/KhanCold/XinjiangTravel/assets/119404710/319e5dde-97a5-4a2f-a3dd-20289aef00df)
+
+![image](https://github.com/KhanCold/XinjiangTravel/assets/119404710/6f99a3ea-f597-43fb-9da7-6291e787d1d5)
+
+
+
