@@ -1,6 +1,6 @@
-网站已经部署到该网址，请点击预览，3D图加载较满，出现Loading信息，请耐心等待！
+网站已经部署到该网址，请点击预览，3D图加载较慢，出现Loading信息，请耐心等待！
 
-The website has been deployed to this URL, please click preview, 3D image Loading is full, loading information appears, please wait patiently!
+The website has been deployed to this URL, please click to preview, please wait patiently for the 3D image Loading!
 
 https://khancold.github.io/XinjiangTravel/
 
